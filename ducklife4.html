@@ -23,6 +23,8 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
+        player.style.width = "99vw"; 
+        player.style.height = "99vh";
         player.load("games/Duck Life 4.swf");
     });
 </script>
